@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>// header /tool bar 500/600
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>//status bar change 700 /800
+        <item name="colorAccent">@color/colorAccent</item>//navigation bar colar  same as tool bar
+
+    </style>
+
+    <style name="FlatButton" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">@color/flatbutton</item>
+
+    </style>
+    <style name="Background" parent="Widget.MaterialComponents.BottomAppBar.Colored">
+        <item name="android:background">@color/background</item>
+
+    </style>
+    <style name="SplashTheme" parent ="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/logo</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="AppTheme.Popup">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:windowBackground">@drawable/theme_transparent</item>
+    </style>
+
+</resources>
